@@ -1,0 +1,202 @@
+@media (max-width: 480px){
+		.sumcnt{
+			width:100%;
+			min-height:50px;
+			float:right;
+			margin-bottom:5px;	
+		}	
+		.content{
+			width:100%;
+		padding-top:100px;
+		}
+		.wrapper{
+			width:100%;
+		}
+		.c_1{
+			width:100%;	
+		}
+		.c_2{
+			width:100%;	
+		}
+		.c_3{
+			width:100%;	
+		}
+		.c_4{
+			width:100%;	
+		}
+		.c_5{
+			width:100%;	
+		}
+		.c_6{
+			width:100%;	
+		}
+		.c_7{
+			width:100%;	
+		}
+		.c_8{
+			width:100%;	
+		}
+		.c_9{
+			width:100%;	
+		}
+		.c_10{
+			width:100%;	
+		}
+		.nav_bg > ul > li{
+		width:100%;	
+		min-height:50px;
+		margin-left:10px;
+		}
+}
+@media (min-width: 481px){
+		.sumcnt{
+			width:100%;
+			min-height:50px;
+			margin-bottom:5px;
+		}	
+		.content{
+			width:100%;
+			padding-top:100px;
+		}
+		.wrapper{
+			width:100%;
+		}
+		.c_1{
+			width:100%;	
+		}
+		.c_2{
+			width:100%;	
+		}
+		.c_3{
+			width:100%;	
+		}
+		.c_4{
+			width:100%;	
+		}
+		.c_5{
+			width:100%;	
+		}
+		.c_6{
+			width:100%;	
+		}
+		.c_7{
+			width:100%;	
+		}
+		.c_8{
+			width:100%;	
+		}
+		.c_9{
+			width:100%;	
+		}
+		.c_10{
+			width:100%;	
+		}
+		.nav_bg > ul > li{
+		width:100%;	
+		min-height:50px;
+
+		float:right;
+		}
+		
+}
+
+
+@media (min-width: 1000px){
+		.sumcnt{
+			width:33%;
+			min-height:50px;
+			float:right;	
+		}	
+		.content{
+			width:980px;
+			
+	padding-top:100px;
+		}
+		.wrapper{
+			width:980px;
+		}
+		.c_1{
+			width:10%;	
+		}
+		.c_2{
+			width:20%;	
+		}
+		.c_3{
+			width:30%;	
+		}
+		.c_4{
+			width:40%;	
+		}
+		.c_5{
+			width:50%;	
+		}
+		.c_6{
+			width:60%;	
+		}
+		.c_7{
+			width:70%;	
+		}
+		.c_8{
+			width:80%;	
+		}
+		.c_9{
+			width:90%;	
+		}
+		.c_10{
+			width:100%;	
+		}
+		.nav_bg > ul > li{
+		width:12%;	
+		min-height:50px;
+		float:right;
+}
+}
+@media (min-width: 1200px){
+		.sumcnt{
+			width:33%;
+			min-height:50px;
+			float:right;	
+		}
+		.content{
+		width:1200px;
+		padding-top:100px;
+		}
+		.wrapper{
+			width:1200px;
+		}
+		.c_1{
+			width:10%;	
+		}
+		.c_2{
+			width:20%;	
+		}
+		.c_3{
+			width:30%;	
+		}
+		.c_4{
+			width:40%;	
+		}
+		.c_5{
+			width:50%;	
+		}
+		.c_6{
+			width:60%;	
+		}
+		.c_7{
+			width:70%;	
+		}
+		.c_8{
+			width:80%;	
+		}
+		.c_9{
+			width:90%;	
+		}
+		.c_10{
+			width:100%;	
+		}
+		.nav_bg > ul > li{
+		width:10%;	
+		min-height:50px;
+		float:right;
+}
+}

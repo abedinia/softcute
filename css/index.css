@@ -1,0 +1,204 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header,content, hgroup,title,load, menu,post, nav, section {
+	display: block;
+	
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('../fonts/farsi_font/BYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/farsi_font/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/farsi_font/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+body {
+	line-height: 1;
+	font-size:12px;
+	direction:rtl;
+	background:#e3e3e3;
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	position:relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.bius_3{
+	border-radius:3px;
+	-ms-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;	
+}
+.bius_5{
+	border-radius:5px;
+	-ms-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;	
+}
+.size-10 { font-size: 10px; }
+.size-11 { font-size: 11px; }
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+
+/*content*/
+body > header{
+	width:100%;
+	background:#3b77e7;	
+	min-height:70px;
+	box-shadow: 0px 1px 2px #828282;
+	position: fixed;
+	z-index:999;
+}
+.content{
+	position:relative;
+	min-height:50px;
+	margin:0px auto;
+	overflow:auto;
+	padding-bottom:50px;
+}
+.wrapper{
+	margin:0px auto;
+	overflow:auto;	
+}
+.rfloat{
+	float:right;
+}
+.lfloat{
+	float:left;	
+}
+.margin_l_5{
+	margin-left:5px;
+}
+.margin_r_5{
+	margin-right:5px;
+}
+.margin_l_10{
+	margin-left:10px;
+}
+.margin_r_10{
+	margin-right:10px;
+}
+/*Callout*/
+.callout{
+	float:right;
+	width:98%;
+	margin-bottom:10px;
+	min-height:50px;
+	background:#ffffff;
+	border:1px solid #cbcbcb;
+	border-right-width: 3px;
+	word-break:break-all;
+}
+.callout > p{
+	padding:10px;
+	color:#444;
+	font-weight:600;
+	font-size: 14px;
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	line-height:30px;
+}
+.b_callout{
+	border-right-color:#3b77e7;
+}
+.callout > h1{
+	font-weight:800;	
+	padding:10px;
+	font-size:16px;
+	line-height:30px;	
+}
+.b_callout > h1{
+	font-weight:800;	
+	padding:10px;
+	color:#3b77e7;
+	font-size:16px;
+	line-height:30px;
+}
+.r_callout > h1{
+	color:#d5412d;
+}
+.g_callout > h1{
+	color:#009855;
+}
+.y_callout > h1{
+	color:#ffb405;
+}
+.r_callout{
+	border-right-color:#d5412d;
+}
+.y_callout{
+	border-right-color:#ffb405;
+}
+.g_callout{
+	border-right-color:#009855;
+}
+/*Callout*/
+/*Pager*/
+.pager{
+	width:100%;
+	min-height:20px;
+	/*background:#FC0;*/
+	text-align:center;
+	margin:0px auto;
+	overflow:auto;
+}
+.pager > ul > a >  li{
+	display:block;
+	float:left;
+	min-height:40px;
+	width:40px;	
+	line-height:40px;
+	background:#ffffff;
+	border:1px solid #ccc;
+	margin:5px 0px 5px 20px; 
+	border-radius:20px;
+	-ms-border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	-o-border-radius:20px;
+}
+.pager > ul > a >  li:hover{
+	background:#ededed;	
+	transition:0.3s ease;
+}
+.pager > ul > a {
+	text-decoration:none;
+	color:#828282;
+}
+

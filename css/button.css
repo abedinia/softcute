@@ -1,0 +1,143 @@
+.btn{
+	padding:5px 10px;	
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	opacity:0.94;
+}
+.btn:hover{
+	opacity:1;
+	transition:0.3s ease;	
+}
+.bbtn{
+	background:#3b77e7;	
+	color:#ffffff;
+	border:1px solid #215ecf;
+}
+.rbtn{
+	background:#da3d2a;	
+	color:#ffffff;
+	border:1px solid #c3311f;
+}
+.ybtn{
+	background:#ffb301;	
+	color:#ffffff;
+	border:1px solid #e09d00;	
+}
+.gbtn{
+	background:#009553;	
+	color:#ffffff;
+	border:1px solid #057845;	
+}
+.tbtn{
+	padding:5px 10px;	
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	opacity:0.94;
+	outline:none;
+	border:2px;
+}
+.tbbtn{
+	background-color: transparent;
+	color:#3b77e7;
+	border:2px solid #3b77e7;
+}
+.tbbtn:hover{
+	background-color:#3b77e7;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+.trbtn{
+	background-color: transparent;
+	color:#da3d2a;
+	border:2px solid #da3d2a;
+}
+.trbtn:hover{
+	background-color:#da3d2a;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+.tybtn{
+	background-color:transparent;	
+	color:#ffb301;
+	border:2px solid #ffb301;	
+}
+.tybtn:hover{
+	background-color:#ffb301;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+.tgbtn{
+	background-color:transparent;	
+	color:#009553;
+	border:2px solid #009553;	
+}
+.tgbtn:hover{
+	background-color:#009553;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+
+/*LInks*/
+.link_tb{
+	display:inline-block;
+	padding:5px 10px;
+	text-decoration:none;
+	font-weight:100;
+	font-size:12px !important;
+
+}
+.ion_tb{
+	margin:5px;
+	font-size:25px !important;
+	
+
+}
+.link_bl{
+	background-color:transparent;
+	color:#205dcf;	
+	border:2px solid #205dcf;
+	font-weight:600;
+		margin:5px;
+}
+.link_bl:hover{
+	background-color:#3b77e7;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+.link_re{
+	background-color:transparent;
+	color:#da3d2a;
+	border:2px solid #c3311f;	
+	font-weight:600;
+		margin:5px;
+}
+.link_re:hover{
+	background-color:#da3d2a;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+.link_ye{
+	background-color:transparent;
+	color:#ffb301;
+	border:2px solid #e09d00;	
+		font-weight:600;
+			margin:5px;
+}
+.link_ye:hover{
+	background-color:#ffb301;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+.link_gr{
+	background-color:transparent;
+	color:#009553;
+	border:2px solid #057845;
+		font-weight:600;
+			margin:5px;	
+}
+.link_gr:hover{
+	background-color:#009553;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+

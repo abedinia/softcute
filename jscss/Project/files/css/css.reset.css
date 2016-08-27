@@ -1,0 +1,199 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header,content, hgroup,title,load, menu,post, nav, section {
+	display: block;
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'BBardiya';
+  src: url('../fonts/BBardiya.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/BBardiya.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BBardiya.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'BHoma';
+  src: url('../fonts/BHoma.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/BHoma.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BHoma.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+input[type="text"] , input[type="password"]{
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px
+}
+input[type="submit"]{
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+}
+body {
+	line-height: 1;
+	font-size:12px;
+	background:#ededed;
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	direction:rtl;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:link{
+	color:#3b77e7;	
+	text-decoration:none;
+	
+}
+a:hover{
+	color:#3b77e7;
+	text-decoration:underline;	
+}
+a:visited{
+	color:#3b77e7;	
+	text-decoration:none;
+}
+.wrapper{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;		
+}
+.lfloat{
+	float:left;	
+}
+.rfloat{
+	float:right;	
+}
+.bius_3{
+	border-radius:3px;
+	-ms-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;	
+}
+.bius_5{
+	border-radius:5px;
+	-ms-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;	
+}
+.bius_30{
+	border-radius:30px;
+	-ms-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-webkit-border-radius:30px;	
+}
+.bius_18{
+	border-radius:18px;
+	-ms-border-radius:18px;
+	-moz-border-radius:18px;
+	-o-border-radius:18px;
+	-webkit-border-radius:18px;	
+}
+/*Warning*/
+.yel_w{
+	width:100%;
+	margin:10px auto;
+	display:block;
+	background:#fff9d2;	
+	border:1px solid #f8e87e;
+	line-height:25px;
+	color:#444;
+}
+.yel_w > p{
+	width:95%;
+	padding:5px;
+	display:block;
+	margin:0px auto;
+	font-weight:600;
+}
+.red_w{
+	width:100%;
+	margin:10px auto;
+	display:block;
+	background:#fedbdb;	
+	border:1px solid #ffbebe;
+	line-height:25px;
+	color:#444;
+}
+.red_w > p{
+	width:95%;
+	padding:5px;
+	display:block;
+	margin:0px auto;
+	font-weight:600;
+}
+/*Warning*/
+.r_text{
+	text-align:right;
+	direction:rtl;	
+}
+.l_text{
+	text-align:left;
+	direction:ltr;	
+}
+/*buttons*/
+.tbtn{
+	padding:5px 10px;	
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	opacity:0.94;
+	outline:none;
+	border:2px;
+}
+/*Blue*/
+.tbbtn{
+	background-color: transparent;
+	color:#3b77e7;
+	border:2px solid #3b77e7;
+}
+.tbbtn:hover{
+	background-color:#3b77e7;
+	color:#ffffff;
+	transition:0.3s ease;	
+}
+/*green*/
+.tgbtn{
+	background-color:transparent;	
+	color:#009553;
+	border:2px solid #009553;	
+}
+.tgbtn:hover{
+	background-color:#009553;
+	color:#ffffff;
+	transition:0.3s ease;	
+}

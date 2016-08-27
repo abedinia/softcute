@@ -1,0 +1,44 @@
+.bgalert{
+	width:99%;
+	min-height:30px;
+	line-height:30px;
+	margin:0px auto 15px auto;	
+	font-weight:600;
+}
+
+.balert{
+	background:#bce8f1;
+	border:1px solid #31708f;
+}
+.balert > p{
+	padding:7px;	
+	color:#31708f;
+	word-spacing:3px;
+}
+.ralert{
+	background:#f2dede;
+	border:1px solid #a94442;	
+}
+.ralert > p{
+	padding:7px;	
+	color:#a94442;
+	word-spacing:3px;
+}
+.yalert{
+	background:#faebcc;
+	border:1px solid #8a6d3b;
+}
+.yalert > p{
+	padding:7px;	
+	color:#8a6d3b;
+	word-spacing:3px;
+}
+.galert{
+	background:#dff0d8;
+	border:1px solid #3c763d;
+}
+.galert > p{
+	padding:7px;	
+	color:#3c763d;
+	word-spacing:3px;
+}

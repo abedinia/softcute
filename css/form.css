@@ -1,0 +1,46 @@
+.txtbx_bg{
+	width:99%;
+	min-height:43px;
+	background:#ffffff;
+	border:1px solid #cbcbcb;
+	margin:0px auto 10px auto;
+}
+.icon_txt{
+	padding:5px 10px;
+	color:#828282;
+	font-size:20px;
+	display:inline-block;
+	text-align:center;
+	line-height:50px;
+	background:#f7f7f7;
+}
+.txtfield{
+	padding: 10px 30px;
+	width: 77%;
+	margin-right:9px;
+	outline:none;
+	border:0px;
+	color:#333;
+	font-family: BYekan, Arial, Helvetica, sans-serif;
+}
+.txtmail{
+		background:url(../images/mail.png) right center no-repeat;	
+}
+.txtpass{
+		background:url(../images/pass.png) right center no-repeat;	
+}
+.txtfind{
+		background:url(../images/find.png) right center no-repeat;	
+}
+.txttell{
+		background:url(../images/tell.png) right center no-repeat;	
+}
+.txtmobile{
+		background:url(../images/mobile.png) right center no-repeat;	
+}
+.txtweb{
+		background:url(../images/website.png) right center no-repeat;	
+}
+.txtlink{
+		background:url(../images/link.png) right center no-repeat;	
+}

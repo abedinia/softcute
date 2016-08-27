@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DarkTooltip</title>
+    <link rel="stylesheet" href="css/darktooltip.css">
+</head>
+
+<body id="home">
+<style type="text/css">
+	
+.box{
+	float: left;
+	padding: 10px;
+	background-color: #eee;
+	width:100px;
+	margin:0 10px 10px 0px;
+	text-align:center;
+}
+
+.box.fixed-box{
+	position:fixed;
+	right:50px;
+	top:50px;
+}
+</style>
+<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery.darktooltip.js"></script>
+	<script>
+		$(document).ready( function(){
+    	$('#def').darkTooltip();
+		$('#dof').darkTooltip();
+		});
+    </script>
+	<br/>
+    <br/><br/><br/>
+	<main class = "main">
+	    		<div id="def" class="box" data-tooltip="آیدین عابدی نیا" >sa45345lam</div>
+                
+                
+                <div id="dof" class="box" data-tooltip="Paya Paydar" >Amali Rape Fars</div>
+                
+    </main>
+</body>
+</html>
